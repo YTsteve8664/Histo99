@@ -1,0 +1,14 @@
+تعديل معلومات الموقع
+
+افتح info.js بأي محرر نصوص واكتب بياناتك في profile، ثم أضف السيرفرات والحسابات إلى القوائم servers و socials. أمثلة جاهزة داخل الملف.
+
+أنواع السيرفرات: discord, minecraft, bot, other
+منصات التواصل: youtube, tiktok, instagram, other
+
+بعد حفظ info.js، أعد تحميل index.html في المتصفح. لا توجد أزرار لإضافة السيرفرات أو الحسابات داخل الموقع؛ مصدرها ملف info.js.
+
+ضع الملفات التالية كلها في مجلد واحد ثم افتح index.html:
+- index.html
+- style.css
+- info.js
+- script.js
