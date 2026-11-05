@@ -13,14 +13,14 @@ window.INFO = {
   // الأنواع المتاحة: discord, minecraft, bot, other
   servers: [
     {
-      type: "minecraft",
+      type: "NoyanMc",
       title: "Minecraft Server",
-      description: "سيرفر ماينكرافت أشارك في إدارته.",
+      description: "انا ادمن هنا  .",
       titleEn: "Minecraft Server",
-      descriptionEn: "A Minecraft server I help manage.",
-      ip: "play.example.com",
-      port: "25565",
-      discord: "https://discord.gg/your-invite"
+      descriptionEn: "i am admin here.",
+      ip: "play.NoyanMc.net",
+      port: "26328",
+      discord: "https://discord.gg/DzZSW3e9G9"
     },
     {
       type: "discord",
