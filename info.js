@@ -17,7 +17,7 @@ window.INFO = {
       title: "Minecraft Server",
       description: "Welcome To Serer NoyanMc , Build Your Own Kingdom",
       titleEn: "Noyanc",
-      descriptionEn: "A Minecraft server I help manage.",
+      descriptionEn: """".,
       ip: "play.Noyanmc.net",
       port: "26328",
       discord: "https://discord.gg/DzZSW3e9G9"
@@ -25,9 +25,9 @@ window.INFO = {
     {
       type: "discord",
       title: "Melyx Support",
-      description: "سيرفر ديسكورد أداري فيه.",
+      description: "بوت ديسكورد انا مساعد سيرفر.",
       titleEn: "Discord Server",
-      descriptionEn: "A Discord server I help manage.",
+      descriptionEn: "Discord Bot i am Server Support .",
       ip: "",
       port: "",
       discord: "https://discord.gg/J4ZtSWDpJw"
@@ -43,11 +43,11 @@ window.INFO = {
       discord: ""
     },
     {
-      type: "other",
+      type: "error",
       title: "سيرفر آخر",
-      description: "اكتب معلومات السيرفر أو دورك الإداري فيه.",
-      titleEn: "Other server",
-      descriptionEn: "Add details about the server or your role.",
+      description: ".",
+      titleEn: "",
+      descriptionEn: ".",
       ip: "",
       port: "",
       discord: ""
