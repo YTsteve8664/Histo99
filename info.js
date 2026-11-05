@@ -4,16 +4,20 @@ window.INFO = {
     name: "",
     age: "",
     country: "",
-    bio: ""
+    bio: "",
+    // اختياري: اكتب النسخة الإنجليزية هنا لتظهر عند اختيار English.
+    en: { name: "", country: "", bio: "" }
   },
 
-  // غيّر أمثلة البيانات التالية إلى معلوماتك، أو انسخ العنصر لإضافة سيرفر آخر.
+  // تقدر تضيف أي عدد من السيرفرات: انسخ كتلة السيرفر كاملة، وضع فاصلة بين كل كتلتين.
   // الأنواع المتاحة: discord, minecraft, bot, other
   servers: [
     {
       type: "minecraft",
       title: "Minecraft Server",
       description: "سيرفر ماينكرافت أشارك في إدارته.",
+      titleEn: "Minecraft Server",
+      descriptionEn: "A Minecraft server I help manage.",
       ip: "play.example.com",
       port: "25565",
       discord: "https://discord.gg/your-invite"
@@ -22,6 +26,8 @@ window.INFO = {
       type: "discord",
       title: "Discord Server",
       description: "سيرفر ديسكورد أداري فيه.",
+      titleEn: "Discord Server",
+      descriptionEn: "A Discord server I help manage.",
       ip: "",
       port: "",
       discord: "https://discord.gg/your-invite"
@@ -30,6 +36,8 @@ window.INFO = {
       type: "bot",
       title: "اسم البوت",
       description: "اكتب معلومات البوت أو دورك فيه.",
+      titleEn: "Bot name",
+      descriptionEn: "Add details about the bot or your role.",
       ip: "",
       port: "",
       discord: ""
@@ -38,12 +46,15 @@ window.INFO = {
       type: "other",
       title: "سيرفر آخر",
       description: "اكتب معلومات السيرفر أو دورك الإداري فيه.",
+      titleEn: "Other server",
+      descriptionEn: "Add details about the server or your role.",
       ip: "",
       port: "",
       discord: ""
     }
   ],
 
+  // تقدر تضيف أي عدد من الحسابات: انسخ كتلة الحساب كاملة، وضع فاصلة بين كل عنصر.
   // المنصات المتاحة: youtube, tiktok, instagram, other
   socials: [
     { platform: "youtube", title: "YouTube", handle: "@username", url: "https://youtube.com/@username" },

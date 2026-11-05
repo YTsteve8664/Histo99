@@ -3,41 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1020">
-  <meta name="description" content="صفحة تعريف شخصية قابلة للتعديل محليًا.">
+  <meta name="theme-color" content="#392414">
+  <meta name="description" content="صفحة تعريف شخصية قابلة للتعديل.">
   <title>ملفي التعريفي</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
   <header class="topbar wrap">
-    <a class="brand" href="#home" aria-label="العودة للبداية"><span class="brand-mark">م</span><span>ملفي <b>الشخصي</b></span></a>
-    <div class="top-actions"><span class="save-state">تُعدّل المعلومات من ملف info.js</span></div>
+    <a class="brand" href="#home" aria-label="العودة للبداية"><span class="brand-mark">م</span><span data-i18n="brand">ملفي الشخصي</span></a>
+    <div class="top-actions"><span class="save-state" data-i18n="editNote">تُعدّل المعلومات من ملف info.js</span><button class="button button-quiet language-button" id="languageToggle" type="button">English</button></div>
   </header>
 
   <main class="wrap" id="home">
     <section class="hero panel">
       <div class="hero-copy">
-        <span class="eyebrow"><i></i> مساحة تعريفية شخصية</span>
-        <h1>أهلًا، أنا <span data-value="name">اسمك هنا</span><span class="accent">.</span></h1>
-        <p class="hero-sub">مساحتي على الإنترنت، ومكان أجمع فيه معلوماتي وسيرفراتي وحساباتي.</p>
-        <div class="quick-facts"><div><span class="fact-label">العمر</span><strong><span data-value="age">—</span><small> سنة</small></strong></div><div class="fact-line"></div><div><span class="fact-label">البلد</span><strong data-value="country">أضف بلدك</strong></div></div>
+        <span class="eyebrow" data-i18n="eyebrow">مساحة تعريفية شخصية</span>
+        <h1><span data-i18n="greeting">أهلًا، أنا </span><span data-value="name">اسمك هنا</span><span class="accent">.</span></h1>
+        <p class="hero-sub" data-i18n="tagline">مساحتي على الإنترنت، ومكان أجمع فيه معلوماتي وسيرفراتي وحساباتي.</p>
+        <div class="quick-facts"><div><span class="fact-label" data-i18n="age">العمر</span><strong><span data-value="age">—</span><small data-i18n="years"> سنة</small></strong></div><div class="fact-line"></div><div><span class="fact-label" data-i18n="countryLabel">البلد</span><strong data-value="country">أضف بلدك</strong></div></div>
       </div>
-      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="avatar"><span data-value="initial">م</span></div><span class="spark spark-a">✦</span><span class="spark spark-b">✧</span><span class="art-caption">أهلًا بك في عالمي</span></div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="avatar"><span data-value="initial">م</span></div><span class="spark spark-a">✦</span><span class="spark spark-b">✧</span><span class="art-caption" data-i18n="artCaption">أهلًا بك في عالمي</span></div>
     </section>
 
-    <section class="about panel section-panel"><div class="section-heading"><div><span class="eyebrow">نبذة قصيرة</span><h2>من أنا؟</h2></div><span class="section-icon">✳</span></div><p class="about-text" data-value="bio">اكتب هنا نبذة بسيطة عنك، اهتماماتك، أو أي شيء تحب أن يعرفه الزوار.</p></section>
+    <section class="about panel section-panel"><div class="section-heading"><div><span class="eyebrow" data-i18n="aboutEyebrow">نبذة قصيرة</span><h2 data-i18n="aboutTitle">من أنا؟</h2></div><span class="section-icon">✳</span></div><p class="about-text" data-value="bio">اكتب هنا نبذة بسيطة عنك، اهتماماتك، أو أي شيء تحب أن يعرفه الزوار.</p></section>
 
-    <section class="section-block"><div class="section-heading"><div><span class="eyebrow">أماكن أشارك فيها</span><h2>السيرفرات</h2></div></div>
+    <section class="section-block"><div class="section-heading"><div><span class="eyebrow" data-i18n="serversEyebrow">أماكن أشارك فيها</span><h2 data-i18n="serversTitle">السيرفرات</h2></div></div>
       <div class="server-grid" id="servers"></div>
-      <div class="empty-note" id="serversEmpty">لم تضف سيرفرات بعد. اضغط «إضافة سيرفر» لكتابة معلوماتك.</div>
+      <div class="empty-note" id="serversEmpty" data-i18n="serversEmpty">لا توجد سيرفرات مضافة حتى الآن.</div>
     </section>
 
-    <section class="section-block social-block"><div class="section-heading"><div><span class="eyebrow">تابعني</span><h2>حساباتي</h2></div></div>
+    <section class="section-block social-block"><div class="section-heading"><div><span class="eyebrow" data-i18n="socialEyebrow">تابعني</span><h2 data-i18n="socialTitle">حساباتي</h2></div></div>
       <div class="social-grid" id="socials"></div>
-      <div class="empty-note" id="socialsEmpty">حساباتك ستظهر هنا بعد إضافتها.</div>
+      <div class="empty-note" id="socialsEmpty" data-i18n="socialsEmpty">لا توجد حسابات مضافة حتى الآن.</div>
     </section>
-    <footer><span class="footer-mark">م</span><span>صُنع ليعبّر عنك <b>كما تريد.</b></span><span class="footer-line"></span><span class="footer-end">صفحتك، بطريقتك</span></footer>
+    <footer><span class="footer-mark">م</span><span data-i18n="footer">صُنع ليعبّر عنك كما تريد.</span><span class="footer-line"></span><span class="footer-end" data-i18n="footerEnd">صفحتك، بطريقتك</span></footer>
   </main>
 
   <script src="info.js"></script>

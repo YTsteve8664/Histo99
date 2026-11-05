@@ -1,6 +1,22 @@
-تعديل معلومات الموقع
+تعديل معلومات الموقع واللغات
 
-افتح info.js بأي محرر نصوص واكتب بياناتك في profile، وعدّل أمثلة السيرفرات والحسابات داخل القائمتين servers و socials. مثال ماينكرافت يتضمن IP وPort ورابط Discord.
+زر English / العربية يبدّل لغة واجهة الموقع. افتح info.js بأي محرر نصوص واكتب بياناتك في profile، وعدّل أمثلة السيرفرات والحسابات داخل القائمتين servers و socials. مثال ماينكرافت يتضمن IP وPort ورابط Discord.
+
+يمكنك إضافة أكثر من عنصر في كل قائمة. انسخ كتلة كاملة والصقها قبل القوس ]، وضع فاصلة بين الكتل. مثال:
+
+servers: [
+  { type: "minecraft", title: "السيرفر الأول", ip: "play.one.com", port: "25565" },
+  { type: "minecraft", title: "السيرفر الثاني", ip: "play.two.com", port: "25566" }
+]
+
+ونفس الطريقة للحسابات:
+
+socials: [
+  { platform: "youtube", title: "YouTube", handle: "@name1", url: "https://youtube.com/@name1" },
+  { platform: "tiktok", title: "TikTok", handle: "@name2", url: "https://tiktok.com/@name2" }
+]
+
+لإظهار اسم أو نبذة مختلفة بالإنجليزية، اكتبها في profile.en، واستخدم titleEn و descriptionEn في بيانات السيرفر. عند ترك حقول الإنجليزية فارغة ستظهر القيمة الأساسية.
 
 أنواع السيرفرات: discord, minecraft, bot, other
 منصات التواصل: youtube, tiktok, instagram, other
