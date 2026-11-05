@@ -1,6 +1,6 @@
 تعديل معلومات الموقع
 
-افتح info.js بأي محرر نصوص واكتب بياناتك في profile، ثم أضف السيرفرات والحسابات إلى القوائم servers و socials. أمثلة جاهزة داخل الملف.
+افتح info.js بأي محرر نصوص واكتب بياناتك في profile، وعدّل أمثلة السيرفرات والحسابات داخل القائمتين servers و socials. مثال ماينكرافت يتضمن IP وPort ورابط Discord.
 
 أنواع السيرفرات: discord, minecraft, bot, other
 منصات التواصل: youtube, tiktok, instagram, other

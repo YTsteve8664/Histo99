@@ -15,7 +15,12 @@
   const servers = Array.isArray(info.servers) ? info.servers : [];
   document.querySelector('#servers').innerHTML = servers.map(server => {
     const type = types[server.type] || types.other;
-    return `<article class="server-card"><div class="card-top"><span class="server-icon ${type[2]}">${type[1]}</span><div><div class="server-title">${esc(server.title || type[0])}</div><div class="server-type">${type[0]}</div></div></div>${server.description ? `<p class="server-desc">${esc(server.description)}</p>` : ''}${server.ip || server.port ? `<div class="server-meta">${server.ip ? `<span>IP <b>${esc(server.ip)}</b></span>` : ''}${server.port ? `<span>PORT <b>${esc(server.port)}</b></span>` : ''}</div>` : ''}</article>`;
+    let discordLink = '';
+    try {
+      const url = new URL(server.discord);
+      if (['http:', 'https:'].includes(url.protocol)) discordLink = url.href;
+    } catch {}
+    return `<article class="server-card"><div class="card-top"><span class="server-icon ${type[2]}">${type[1]}</span><div><div class="server-title">${esc(server.title || type[0])}</div><div class="server-type">${type[0]}</div></div></div>${server.description ? `<p class="server-desc">${esc(server.description)}</p>` : ''}${server.ip || server.port || discordLink ? `<div class="server-meta">${server.ip ? `<span>IP <b>${esc(server.ip)}</b></span>` : ''}${server.port ? `<span>PORT <b>${esc(server.port)}</b></span>` : ''}${discordLink ? `<a href="${esc(discordLink)}" target="_blank" rel="noopener noreferrer">Discord</a>` : ''}</div>` : ''}</article>`;
   }).join('');
   document.querySelector('#serversEmpty').hidden = servers.length > 0;
 
