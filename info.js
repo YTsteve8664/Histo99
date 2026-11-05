@@ -57,8 +57,8 @@ window.INFO = {
   // تقدر تضيف أي عدد من الحسابات: انسخ كتلة الحساب كاملة، وضع فاصلة بين كل عنصر.
   // المنصات المتاحة: youtube, tiktok, instagram, other
   socials: [
-    { platform: "youtube", title: "Histo99 YouTube", handle: "@username", url: "https://youtube.com/@Histo992" },
-    { platform: "tiktok", title: "Histo99 TikTok", handle: "@username", url: "https://tiktok.com/@Histo991" },
-    { platform: "instagram", title: "Histo99 Instagram", handle: "@username", url: "https://instagram.com/Histo992" }
+    { platform: "youtube", title: "Histo99 YouTube", handle: "@Histo992", url: "https://youtube.com/@Histo992" },
+    { platform: "tiktok", title: "Histo99 TikTok", handle: "@Histo991", url: "https://tiktok.com/@Histo991" },
+    { platform: "instagram", title: "Histo99 Instagram", handle: "@Histo992", url: "https://instagram.com/Histo992" }
   ]
 };
