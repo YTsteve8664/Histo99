@@ -1,10 +1,10 @@
 /* عدّل المعلومات داخل هذا الملف فقط، ثم احفظه وأعد تحميل الصفحة. */
 window.INFO = {
   profile: {
-    name: "",
-    age: "",
-    country: "",
-    bio: "",
+    name: "Histo99",
+    age: "15",
+    country: "المملكة العربية السعودية",
+    bio: "اداري بعض سيرفرات أحاول اصير صانع محتوى ",
     // اختياري: اكتب النسخة الإنجليزية هنا لتظهر عند اختيار English.
     en: { name: "", country: "", bio: "" }
   },
@@ -13,24 +13,24 @@ window.INFO = {
   // الأنواع المتاحة: discord, minecraft, bot, other
   servers: [
     {
-      type: "minecraft",
+      type: "Minecraft",
       title: "Minecraft Server",
-      description: "سيرفر ماينكرافت أشارك في إدارته.",
-      titleEn: "Minecraft Server",
+      description: "Welcome To Serer NoyanMc , Build Your Own Kingdom",
+      titleEn: "Noyanc",
       descriptionEn: "A Minecraft server I help manage.",
-      ip: "play.example.com",
-      port: "25565",
-      discord: "https://discord.gg/your-invite"
+      ip: "play.Noyanmc.net",
+      port: "26328",
+      discord: "https://discord.gg/DzZSW3e9G9"
     },
     {
       type: "discord",
-      title: "Discord Server",
+      title: "Melyx Support",
       description: "سيرفر ديسكورد أداري فيه.",
       titleEn: "Discord Server",
       descriptionEn: "A Discord server I help manage.",
       ip: "",
       port: "",
-      discord: "https://discord.gg/your-invite"
+      discord: "https://discord.gg/J4ZtSWDpJw"
     },
     {
       type: "bot",
@@ -57,8 +57,8 @@ window.INFO = {
   // تقدر تضيف أي عدد من الحسابات: انسخ كتلة الحساب كاملة، وضع فاصلة بين كل عنصر.
   // المنصات المتاحة: youtube, tiktok, instagram, other
   socials: [
-    { platform: "youtube", title: "YouTube", handle: "@username", url: "https://youtube.com/@username" },
-    { platform: "tiktok", title: "TikTok", handle: "@username", url: "https://tiktok.com/@username" },
-    { platform: "instagram", title: "Instagram", handle: "@username", url: "https://instagram.com/username" }
+    { platform: "youtube", title: "Histo99 YouTube", handle: "@username", url: "https://youtube.com/@Histo991" },
+    { platform: "tiktok", title: "Histo99 TikTok", handle: "@username", url: "https://tiktok.com/@Histo991" },
+    { platform: "instagram", title: "Histo99 Instagram", handle: "@username", url: "https://instagram.com/Histo992" }
   ]
 };
